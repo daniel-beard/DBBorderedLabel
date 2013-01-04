@@ -18,6 +18,10 @@
 {
     [super viewDidLoad];
 	// Do any additional setup after loading the view, typically from a nib.
+    
+    self.borderLabel1.borderWidth = 10.0f;
+    self.borderLabel1.borderColor = [UIColor redColor];
+    
 }
 
 - (void)didReceiveMemoryWarning

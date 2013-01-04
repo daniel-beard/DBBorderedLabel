@@ -7,7 +7,10 @@
 //
 
 #import <UIKit/UIKit.h>
+#import "DBBorderedLabel.h"
 
 @interface ViewController : UIViewController
+
+@property (weak, nonatomic) IBOutlet DBBorderedLabel *borderLabel1;
 
 @end
